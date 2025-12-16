@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: docker push brisoustn/flask-app:latest
+        image: docker push brisoustn/flask-app:f276061cef6d5d82048555fb6ab5c1fc5bf53ae1
         ports:
         - containerPort: 5000

@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/TON_USER/flask-k8s-manifests.git
+    repoURL: https://https://github.com/Brisous/deploy_imageDocker.git
     targetRevision: main
-    path: .
+    path: k8s
   destination:
     server: https://kubernetes.default.svc
     namespace: flask-app

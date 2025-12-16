@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: docker push ${{ secrets.DOCKER_USERNAME }}/flask-app:${{ github.sha }}
+        image: docker push brisoustn/flask-app:${{ github.sha }}
         ports:
         - containerPort: 5000

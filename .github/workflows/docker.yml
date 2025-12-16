@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # Ou toute autre branche que tu utilises
+  workflow_dispatch:
 
 jobs:
   build:
